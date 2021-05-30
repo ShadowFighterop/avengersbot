@@ -1,1 +1,1 @@
-worker: bash AuraXBot
+userbot: python -m userbot
