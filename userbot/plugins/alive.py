@@ -7,7 +7,7 @@ from telethon.events import NewMessage
 from telethon.tl.custom import Dialog
 from telethon.tl.types import Channel, Chat, User
 from telethon import version
-from userbot import ALIVE_NAME, StartTime, Personalversion
+from userbot import ALIVE_NAME, StartTime, personalversion
 from personalbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 
@@ -82,7 +82,7 @@ async def amireallyalive(alive):
         Personal_caption += f"**╭────────☆═━┈┈┈━═☆───────╮**\n"
         Personal_caption += f"**※┄┄➳ BOT OWNER:** {mention}\n"
         Personal_caption += f"**※┄┄➳ BOT STATUS : WORKING NORMALLY **\n"
-        Personal_caption += f"**※┄┄➳ YOUR BOT VERSION :**`{Personalversion}`\n"
+        Personal_caption += f"**※┄┄➳ YOUR BOT VERSION :**`{personalversion}`\n"
         Personal_caption += f"**※┄┄➳ 𝚂𝙴𝙲𝚄𝚁𝙸𝚃𝚈 𝚂𝚃𝙰𝚃𝚄𝚂 : NO BUGS AND ERRORS **\n"
         Personal_caption += f"**※┄┄➳ TELETHON VERSION :** `{version.__version__}`**\n"
         Personal_caption += f"**※┄┄➳ UPTIME :** `{uptime}\n`"
@@ -103,7 +103,7 @@ async def amireallyalive(alive):
             f"     __**╚»★BOT INFO★«╝**__\n"
             f"**╭────────☆═━┈┈┈━═☆───────╮**\n"
             f"**※┄┄➳ BOT STATUS : WORKING NORMALLY **\n"
-            f"**※┄┄➳ YOUR BOT VERSION :**`{Personalversion}`\n"
+            f"**※┄┄➳ YOUR BOT VERSION :**`{personalversion}`\n"
             f"**※┄┄➳ 𝚂𝙴𝙲𝚄𝚁𝙸𝚃𝚈 𝚂𝚃𝙰𝚃𝚄𝚂 : NO BUGS AND ERRORS **\n"
             f"**※┄┄➳ TELETHON VERSION :** `{version.__version__}`**\n"
             f"**※┄┄➳ UPTIME :** `{uptime}\n`"
