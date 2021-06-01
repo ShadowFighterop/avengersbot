@@ -78,22 +78,22 @@ async def amireallyalive(alive):
     if personal_IMG:
         personal_caption = f"**{CUSTOM_ALIVE_TEXT}**\n\n"
         
-        Personal_caption += f"      __**╚»★BOT INFO★«╝**__\n"
-        Personal_caption += f"**╭────────☆═━┈┈┈━═☆───────╮**\n"
-        Personal_caption += f"**※┄┄➳ BOT OWNER:** {mention}\n"
-        Personal_caption += f"**※┄┄➳ BOT STATUS : WORKING NORMALLY **\n"
-        Personal_caption += f"**※┄┄➳ YOUR BOT VERSION :**`{personalversion}`\n"
-        Personal_caption += f"**※┄┄➳ 𝚂𝙴𝙲𝚄𝚁𝙸𝚃𝚈 𝚂𝚃𝙰𝚃𝚄𝚂 : NO BUGS AND ERRORS **\n"
-        Personal_caption += f"**※┄┄➳ TELETHON VERSION :** `{version.__version__}`**\n"
-        Personal_caption += f"**※┄┄➳ UPTIME :** `{uptime}\n`"
-        Personal_caption += f"**※┄┄➳ SUDO STATUS: `{sudou}`**\n"
-        Personal_caption += f"**※┄┄➳ 𝙳𝙴𝚅𝙴𝙻𝙿𝙾𝙴𝚁 𝚂𝚃𝙰𝚃𝚄𝚂 : ACTIVE**\n"
-        Personal_caption +=  f"**※┄┄➳ CREATOR : [🇮🇳• ITS A SECRET •🇮🇳](https://t.me/furious_x_y)**\n"
-        Personal_caption += f"**╰────────☆═━┈┈┈━═☆───────╯**\n"
-        Personal_caption += "[✨REPO✨](https://github.com/FURIOUS-XY/personalbot) 🔹 [📜License📜](https://github.com/FURIOUS-XY/personalbot/blob/master/LICENSE)"
+        personal_caption += f"      __**╚»★BOT INFO★«╝**__\n"
+        personal_caption += f"**╭────────☆═━┈┈┈━═☆───────╮**\n"
+        personal_caption += f"**※┄┄➳ BOT OWNER:** {mention}\n"
+        personal_caption += f"**※┄┄➳ BOT STATUS : WORKING NORMALLY **\n"
+        personal_caption += f"**※┄┄➳ YOUR BOT VERSION :**`{personalversion}`\n"
+        personal_caption += f"**※┄┄➳ 𝚂𝙴𝙲𝚄𝚁𝙸𝚃𝚈 𝚂𝚃𝙰𝚃𝚄𝚂 : NO BUGS AND ERRORS **\n"
+        personal_caption += f"**※┄┄➳ TELETHON VERSION :** `{version.__version__}`**\n"
+        personal_caption += f"**※┄┄➳ UPTIME :** `{uptime}\n`"
+        personal_caption += f"**※┄┄➳ SUDO STATUS: `{sudou}`**\n"
+        personal_caption += f"**※┄┄➳ 𝙳𝙴𝚅𝙴𝙻𝙿𝙾𝙴𝚁 𝚂𝚃𝙰𝚃𝚄𝚂 : ACTIVE**\n"
+        personal_caption +=  f"**※┄┄➳ CREATOR : [🇮🇳• ITS A SECRET •🇮🇳](https://t.me/furious_x_y)**\n"
+        personal_caption += f"**╰────────☆═━┈┈┈━═☆───────╯**\n"
+        personal_caption += "[✨REPO✨](https://github.com/FURIOUS-XY/personalbot) 🔹 [📜License📜](https://github.com/FURIOUS-XY/personalbot/blob/master/LICENSE)"
 
         await alive.client.send_file(
-            alive.chat_id, Personal_IMG, caption=Personal_caption, reply_to=reply_to_id
+            alive.chat_id, Personal_IMG, caption=personal_caption, reply_to=reply_to_id
         )
     else:
         await edit_or_reply(
