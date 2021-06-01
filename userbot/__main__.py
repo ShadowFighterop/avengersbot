@@ -54,8 +54,8 @@ import userbot._core
 
 print(f"""personalBot IS ON!!! personalBot VERSION :- {personalversion}
 JOIN OFFICIAL CHAT GROUP AND UPDATES CHANNEL
-OFFICIAL GROUP :- @personalSupport
-OFFICIAL CHANNEL :- @personalUserbot
+OFFICIAL GROUP :- @furious_x_y
+OFFICIAL CHANNEL :- @furious_x_y
 DO .alive OR .ping CHECK IF I'M ON!
 IF YOU FACE ANY ISSUE THEN ASK AT CHAT GROUP.""")
 
