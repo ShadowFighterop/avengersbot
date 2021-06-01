@@ -1,4 +1,4 @@
-#    Copyright (C) @SupRemE_AnanD 2021-2022
+
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published by
 #    the Free Software Foundation, either version 3 of the License, or
@@ -9,11 +9,7 @@
 #    GNU Affero General Public License for more details.
 #
 #    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <https://www.gnu.org/licenses/>.
-#
-#
-#    This Inline Helper Code is solely owned by @SupRemE_AnanD
-#    You Should Not Copy This Code Without Proper Permission.
+#    along with this program.  If not, see <https://www.gnu.org/license
 
 from math import ceil
 from re import compile
@@ -55,13 +51,13 @@ def button(page, modules):
     buttons.append(
         [
             custom.Button.inline(
-               f"{personal_emoji} 𝐁𝐀𝐂𝐊 {personal_emoji}", data=f"page({(max_pages - 1) if page == 0 else (page - 1)})"
+               f"{personal_emoji} 𝙱𝙰𝙲𝙺  {personal_emoji}", data=f"page({(max_pages - 1) if page == 0 else (page - 1)})"
             ),
             custom.Button.inline(
-               f"•{personal_emoji} ❌ {personal_emoji}•", data="close"
+               f"•{personal_emoji} ✖️ {personal_emoji}•", data="close"
             ),
             custom.Button.inline(
-               f"{personal_emoji} 𝐍𝐄𝐗𝐓 {personal_emoji}", data=f"page({0 if page == (max_pages - 1) else page + 1})"
+               f"{personal_emoji} 𝙽𝙴𝚇𝚃  {personal_emoji}", data=f"page({0 if page == (max_pages - 1) else page + 1})"
             ),
         ]
     )
