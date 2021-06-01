@@ -57,7 +57,7 @@ pm_caption += (
 
 
 
-pm_caption += f 👨‍🔬"**𝙳𝙴𝚅𝙴𝙻𝙿𝙾𝙴𝚁 𝚂𝚃𝙰𝚃𝚄𝚂   : ACTIVE ** \n\n"
+pm_caption += f "**👨‍🔬 𝙳𝙴𝚅𝙴𝙻𝙿𝙾𝙴𝚁 𝚂𝚃𝙰𝚃𝚄𝚂   : ACTIVE ** \n\n"
 
 
 
