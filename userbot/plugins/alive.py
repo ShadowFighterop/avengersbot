@@ -81,6 +81,7 @@ async def amireallyalive(alive):
         personal_caption += f"      __**╚»★BOT INFO★«╝**__\n"
         personal_caption += f"**╭────────☆═━┈┈┈━═☆───────╮**\n"
         personal_caption += f"**※┄┄➳ BOT OWNER:** {mention}\n"
+        personal_caption += f"**┣★ Master:** {mention}\n"
         personal_caption += f"**※┄┄➳ BOT STATUS : WORKING NORMALLY **\n"
         personal_caption += f"**※┄┄➳ YOUR BOT VERSION :**`{personalversion}`\n"
         personal_caption += f"**※┄┄➳ SECURITY STATUS : NO BUGS **\n"
