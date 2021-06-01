@@ -71,12 +71,12 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         builder = event.builder
         result = None
         query = event.text
-        if event.query.user_id == bot.uid and query == "@personalUserbot":
+        if event.query.user_id == bot.uid and query == "@Furious_X_Y":
             rev_text = query[::-1]
             veriler = button(0, sorted(CMD_HELP))
             result = await builder.article(
                 f"Hey! Only use .help please",
-                text=f"**Running personalUserbot**\n\n__Number of plugins installed__ :`{len(CMD_HELP)}`\n**page:** 1/{veriler[0]}",
+                text=f"**▪𝚈𝙾𝚄𝚁 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻 𝚄𝚂𝙴𝚁𝙱𝙾𝚃▪**\n\n__𝚃𝚘𝚝𝚊𝚕 𝚙𝚕𝚞𝚐𝚒𝚗𝚜 𝚒𝚗 𝚢𝚘𝚞𝚛 𝚞𝚜𝚎𝚛𝚋𝚘𝚝__ :`{len(CMD_HELP)}`\n**page:** 1/{veriler[0]}",
                 buttons=veriler[1],
                 link_preview=False,
             )
@@ -90,18 +90,18 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             )
         else:
             result = builder.article(
-                "@personalUserbot",
-                text="""**Hey! This is [personalUserbot.](https://t.me/personalUserbot) \nYou can know more about me from the links given below 👇**""",
+                "@FURIOUS_X_Y",
+                text="""**Hey! This is [personal Userbot.](https://t.me/furious_x_y) \nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
-                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/personalUserbot"),
+                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/furious_x_y"),
                         custom.Button.url(
-                            "⚡ GROUP ⚡", "https://t.me/personalSupport"
+                            "⚡ GROUP ⚡", "https://t.me/furious_x_y"
                         ),
                     ],
                     [
                         custom.Button.url(
-                            "✨ REPO ✨", "https://github.com/Harsh-78/personalUserbot"),
+                            "✨ REPO ✨", "https://github.com/FURIOUS-XY/personal-Userbot"),
                     ],
                 ],
                 link_preview=False,
