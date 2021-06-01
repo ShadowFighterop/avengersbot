@@ -88,7 +88,7 @@ async def amireallyalive(alive):
         personal_caption += f"**※┄┄➳ UPTIME :** `{uptime}`**\n"
         personal_caption += f"**※┄┄➳ SUDO STATUS :** `{sudou}`**\n"
         personal_caption += f"**※┄┄➳ DEVELOPER STATUS :** ACTIVE**\n"
-        personal_caption += f"**※┄┄➳ CREATOR :** [🇮🇳• ITS A SECRET •🇮🇳](https://t.me/furious_x_y)**\n"
+        personal_caption += f"**※┄┄➳ CREATOR :** [🇮🇳• FURIOUS-XY •🇮🇳](https://t.me/furious_x_y)**\n"
         personal_caption += f"**╰────────☆═━┈┈┈━═☆───────╯**\n"
         personal_caption += "[✨**REPO**✨](https://github.com/FURIOUS-XY/personalbot) 🔹 [📜**LICENSE**📜](https://github.com/FURIOUS-XY/personalbot/blob/master/LICENSE)"
 
@@ -108,7 +108,7 @@ async def amireallyalive(alive):
             f"**※┄┄➳ UPTIME :** `{uptime}`**\n"
             f"**※┄┄➳ SUDO STATUS :** `{sudou}`**\n"
             f"**※┄┄➳ DEVELOPER STATUS :** ACTIVE**\n"
-            f"**※┄┄➳ CREATOR :** [🇮🇳• ITS A SECRET •🇮🇳](https://t.me/furious_x_y)**\n"
+            f"**※┄┄➳ CREATOR :** [🇮🇳• FURIOUS-XY •🇮🇳](https://t.me/furious_x_y)**\n"
             f"**※┄┄➳ MASTER:** {mention}\n"
             f"**╰────────☆═━┈┈┈━═☆───────╯**\n"
             personal_caption += "[✨**REPO**✨](https://github.com/FURIOUS-XY/personalbot) 🔹 [📜**LICENSE**📜](https://github.com/FURIOUS-XY/personalbot/blob/master/LICENSE)",
