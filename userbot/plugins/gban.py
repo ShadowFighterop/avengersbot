@@ -10,7 +10,7 @@ from telethon.tl.types import MessageEntityMentionName
 from telethon.utils import get_input_location
 from telethon.events import ChatAction
 
-Harsh-78 = str(ALIVE_NAME) if ALIVE_NAME else "personal User"
+Harsh = str(ALIVE_NAME) if ALIVE_NAME else "personal User"
 papa = borg.uid
 
 
@@ -120,7 +120,7 @@ async def gban(userbot):
     except:
         pass
     return await personalBot.edit(
-        f"[{user.first_name}](tg://user?id={user.id}) Beta majdur ko khodna aur [{Harsh-78}](tg://user?id={papa}) ko chodna kabhi sikhana nhi.\n\n**Gban Successful 🔥\nAffected Chats😏 : {a} **"
+        f"[{user.first_name}](tg://user?id={user.id}) Beta majdur ko khodna aur [{Harsh}](tg://user?id={papa}) ko chodna kabhi sikhana nhi.\n\n**Gban Successful 🔥\nAffected Chats😏 : {a} **"
     )
 
 @bot.on(admin_cmd(pattern="ungban ?(.*)"))
