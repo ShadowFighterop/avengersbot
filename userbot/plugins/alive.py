@@ -80,7 +80,7 @@ async def amireallyalive(alive):
         
         personal_caption += f"      __**╚»★BOT INFO★«╝**__\n"
         personal_caption += f"**╭────────☆═━┈┈┈━═☆───────╮**\n"
-        personal_caption += f"**┣★ Master:** {mention}\n"
+        personal_caption += f"**※┄┄➳ BOT OWNER:** ** {mention} **\n"
         personal_caption += f"**※┄┄➳ BOT STATUS : WORKING NORMALLY **\n"
         personal_caption += f"**※┄┄➳ YOUR BOT VERSION :**`{personalversion}`\n"
         personal_caption += f"**※┄┄➳ SECURITY STATUS : NO BUGS **\n"
@@ -88,7 +88,6 @@ async def amireallyalive(alive):
         personal_caption += f"**※┄┄➳ UPTIME :** `{uptime}`\n"
         personal_caption += f"**※┄┄➳ SUDO STATUS :** `{sudou}`\n"
         personal_caption += f"**※┄┄➳ DEVELOPER STATUS : ACTIVE** \n"
-        personal_caption += f"**※┄┄➳ BOT OWNER:** {mention}\n"
         personal_caption += f"**※┄┄➳ CREATOR :** ** [🇮🇳• FURIOUS-XY •🇮🇳](https://t.me/furious_x_y)**\n"
         personal_caption += f"**╰────────☆═━┈┈┈━═☆───────╯**\n"
         personal_caption += "[✨𝚁𝙴𝙿𝙾✨](https://github.com/FURIOUS-XY/personal-userbot) 🔹 [📜𝙻𝙸𝙲𝙴𝙽𝚂𝙴📜](https://github.com/FURIOUS-XY/personal-userbot/blob/master/LICENSE)"
