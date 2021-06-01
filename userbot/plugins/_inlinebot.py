@@ -1,4 +1,4 @@
-
+#    Copyright (C) @SupRemE_AnanD 2021-2022
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published by
 #    the Free Software Foundation, either version 3 of the License, or
@@ -9,7 +9,11 @@
 #    GNU Affero General Public License for more details.
 #
 #    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <https://www.gnu.org/license
+#    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+#
+#    This Inline Helper Code is solely owned by @SupRemE_AnanD
+#    You Should Not Copy This Code Without Proper Permission.
 
 from math import ceil
 from re import compile
@@ -51,13 +55,13 @@ def button(page, modules):
     buttons.append(
         [
             custom.Button.inline(
-               f"{personal_emoji} 𝙱𝙰𝙲𝙺  {personal_emoji}", data=f"page({(max_pages - 1) if page == 0 else (page - 1)})"
+               f"{personal_emoji} 𝐁𝐀𝐂𝐊 {personal_emoji}", data=f"page({(max_pages - 1) if page == 0 else (page - 1)})"
             ),
             custom.Button.inline(
-               f"•{personal_emoji} ✖️ {personal_emoji}•", data="close"
+               f"•{personal_emoji} ❌ {personal_emoji}•", data="close"
             ),
             custom.Button.inline(
-               f"{personal_emoji} 𝙽𝙴𝚇𝚃  {personal_emoji}", data=f"page({0 if page == (max_pages - 1) else page + 1})"
+               f"{personal_emoji} 𝐍𝐄𝐗𝐓 {personal_emoji}", data=f"page({0 if page == (max_pages - 1) else page + 1})"
             ),
         ]
     )
@@ -71,12 +75,12 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         builder = event.builder
         result = None
         query = event.text
-        if event.query.user_id == bot.uid and query == "@Furious_X_Y":
+        if event.query.user_id == bot.uid and query == "@personalUserbot":
             rev_text = query[::-1]
             veriler = button(0, sorted(CMD_HELP))
             result = await builder.article(
                 f"Hey! Only use .help please",
-                text=f"**▪𝚈𝙾𝚄𝚁 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻 𝚄𝚂𝙴𝚁𝙱𝙾𝚃▪**\n\n__𝚃𝚘𝚝𝚊𝚕 𝚙𝚕𝚞𝚐𝚒𝚗𝚜 𝚒𝚗 𝚢𝚘𝚞𝚛 𝚞𝚜𝚎𝚛𝚋𝚘𝚝__ :`{len(CMD_HELP)}`\n**page:** 1/{veriler[0]}",
+                text=f"**Running personalUserbot**\n\n__Number of plugins installed__ :`{len(CMD_HELP)}`\n**page:** 1/{veriler[0]}",
                 buttons=veriler[1],
                 link_preview=False,
             )
@@ -90,18 +94,18 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             )
         else:
             result = builder.article(
-                "@FURIOUS_X_Y",
-                text="""**Hey! This is [personal Userbot.](https://t.me/furious_x_y) \nYou can know more about me from the links given below 👇**""",
+                "@personalUserbot",
+                text="""**Hey! This is [personalUserbot.](https://t.me/personalUserbot) \nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
-                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/furious_x_y"),
+                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/personalUserbot"),
                         custom.Button.url(
-                            "⚡ GROUP ⚡", "https://t.me/furious_x_y"
+                            "⚡ GROUP ⚡", "https://t.me/personalSupport"
                         ),
                     ],
                     [
                         custom.Button.url(
-                            "✨ REPO ✨", "https://github.com/FURIOUS-XY/personal-Userbot"),
+                            "✨ REPO ✨", "https://github.com/Harsh-78/personalUserbot"),
                     ],
                 ],
                 link_preview=False,
