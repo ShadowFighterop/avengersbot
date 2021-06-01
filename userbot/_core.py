@@ -11,8 +11,8 @@ from userbot import bot as personalBot
 
 DELETE_TIMEOUT = 5
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "personal User"
-personal_logo = "./personal/personalBot_logo.jpg"
-aura = personalBot.uid
+personal_logo = "./personal/personal_bot_logo.jpg"
+harsh = personalBot.uid
 personal = f"[{DEFAULTUSER}](tg://user?id={aura})"
 
 @personalBot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)", outgoing=True))
