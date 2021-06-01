@@ -90,7 +90,7 @@ async def amireallyalive(alive):
         personal_caption += f"**※┄┄➳ DEVELOPER STATUS : ACTIVE** \n"
         personal_caption += f"**※┄┄➳ CREATOR :** ** [🇮🇳• FURIOUS-XY •🇮🇳](https://t.me/furious_x_y)**\n"
         personal_caption += f"**╰────────☆═━┈┈┈━═☆───────╯**\n"
-        personal_caption += "[✨REPO✨](https://github.com/FURIOUS-XY/personal-userbot) 🔹 [📜LICENSE📜](https://github.com/FURIOUS-XY/personal-userbot/blob/master/LICENSE)"
+        personal_caption += "[✨𝚁𝙴𝙿𝙾✨](https://github.com/FURIOUS-XY/personal-userbot) 🔹 [📜𝙻𝙸𝙲𝙴𝙽𝚂𝙴📜](https://github.com/FURIOUS-XY/personal-userbot/blob/master/LICENSE)"
 
         await alive.client.send_file(
             alive.chat_id, personal_IMG, caption=personal_caption, reply_to=reply_to_id
