@@ -93,7 +93,7 @@ async def amireallyalive(alive):
         personal_caption += "[✨REPO✨](https://github.com/FURIOUS-XY/personalbot) 🔹 [📜License📜](https://github.com/FURIOUS-XY/personalbot/blob/master/LICENSE)"
 
         await alive.client.send_file(
-            alive.chat_id, Personal_IMG, caption=personal_caption, reply_to=reply_to_id
+            alive.chat_id, personal_IMG, caption=personal_caption, reply_to=reply_to_id
         )
     else:
         await edit_or_reply(
