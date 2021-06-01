@@ -1,6 +1,6 @@
 import time
 from userbot import *
-from personalbot.utils import *
+from personalBot.utils import *
 from userbot.cmdhelp import CmdHelp
 from telethon import events, version
 from telethon.events import NewMessage
