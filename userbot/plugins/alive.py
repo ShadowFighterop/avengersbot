@@ -83,14 +83,14 @@ async def amireallyalive(alive):
         personal_caption += f"**※┄┄➳ BOT OWNER:** {mention}\n"
         personal_caption += f"**※┄┄➳ BOT STATUS : WORKING NORMALLY **\n"
         personal_caption += f"**※┄┄➳ YOUR BOT VERSION :**`{personalversion}`\n"
-        personal_caption += f"**※┄┄➳ 𝚂𝙴𝙲𝚄𝚁𝙸𝚃𝚈 𝚂𝚃𝙰𝚃𝚄𝚂 : NO BUGS AND ERRORS **\n"
+        personal_caption += f"**※┄┄➳ SECURITY STATUS : NO BUGS AND ERRORS **\n"
         personal_caption += f"**※┄┄➳ TELETHON VERSION :** `{version.__version__}`**\n"
-        personal_caption += f"**※┄┄➳ UPTIME :** `{uptime}\n`"
-        personal_caption += f"**※┄┄➳ SUDO STATUS: `{sudou}`**\n"
-        personal_caption += f"**※┄┄➳ 𝙳𝙴𝚅𝙴𝙻𝙿𝙾𝙴𝚁 𝚂𝚃𝙰𝚃𝚄𝚂 : ACTIVE**\n"
-        personal_caption +=  f"**※┄┄➳ CREATOR : [🇮🇳• ITS A SECRET •🇮🇳](https://t.me/furious_x_y)**\n"
+        personal_caption += f"**※┄┄➳ UPTIME :** `{uptime}`**\n"
+        personal_caption += f"**※┄┄➳ SUDO STATUS :** `{sudou}`**\n"
+        personal_caption += f"**※┄┄➳ DEVELOPER STATUS :** ACTIVE**\n"
+        personal_caption += f"**※┄┄➳ CREATOR :** [🇮🇳• ITS A SECRET •🇮🇳](https://t.me/furious_x_y)**\n"
         personal_caption += f"**╰────────☆═━┈┈┈━═☆───────╯**\n"
-        personal_caption += "[✨REPO✨](https://github.com/FURIOUS-XY/personalbot) 🔹 [📜License📜](https://github.com/FURIOUS-XY/personalbot/blob/master/LICENSE)"
+        personal_caption += "[✨**REPO**✨](https://github.com/FURIOUS-XY/personalbot) 🔹 [📜**LICENSE**📜](https://github.com/FURIOUS-XY/personalbot/blob/master/LICENSE)"
 
         await alive.client.send_file(
             alive.chat_id, personal_IMG, caption=personal_caption, reply_to=reply_to_id
@@ -103,15 +103,15 @@ async def amireallyalive(alive):
             f"**╭────────☆═━┈┈┈━═☆───────╮**\n"
             f"**※┄┄➳ BOT STATUS : WORKING NORMALLY **\n"
             f"**※┄┄➳ YOUR BOT VERSION :**`{personalversion}`\n"
-            f"**※┄┄➳ 𝚂𝙴𝙲𝚄𝚁𝙸𝚃𝚈 𝚂𝚃𝙰𝚃𝚄𝚂 : NO BUGS AND ERRORS **\n"
+            f"**※┄┄➳ SECURITY STATUS : NO BUGS AND ERRORS **\n"
             f"**※┄┄➳ TELETHON VERSION :** `{version.__version__}`**\n"
-            f"**※┄┄➳ UPTIME :** `{uptime}\n`"
-            f"**※┄┄➳ SUDO STATUS: `{sudou}`**\n"
-            f"**※┄┄➳ 𝙳𝙴𝚅𝙴𝙻𝙿𝙾𝙴𝚁 𝚂𝚃𝙰𝚃𝚄𝚂 : ACTIVE**\n"
-            f"**※┄┄➳ CREATOR : [🇮🇳• ITS A SECRET •🇮🇳](https://t.me/furious_x_y)**\n"
+            f"**※┄┄➳ UPTIME :** `{uptime}`**\n"
+            f"**※┄┄➳ SUDO STATUS :** `{sudou}`**\n"
+            f"**※┄┄➳ DEVELOPER STATUS :** ACTIVE**\n"
+            f"**※┄┄➳ CREATOR :** [🇮🇳• ITS A SECRET •🇮🇳](https://t.me/furious_x_y)**\n"
             f"**※┄┄➳ MASTER:** {mention}\n"
             f"**╰────────☆═━┈┈┈━═☆───────╯**\n"
-            "[✨REPO✨](https://github.com/FURIOUS-XY/PERSONAL-USERBOT) 🔹 [📜License📜](https://github.com/FURIOUS-XY/PERSONAL-USERBOT/blob/master/LICENSE)",
+            personal_caption += "[✨**REPO**✨](https://github.com/FURIOUS-XY/personalbot) 🔹 [📜**LICENSE**📜](https://github.com/FURIOUS-XY/personalbot/blob/master/LICENSE)",
         )
 CmdHelp("alive").add_command(
   'alive', None, 'Check weather the bot is alive or not'
