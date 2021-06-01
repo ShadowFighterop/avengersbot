@@ -42,7 +42,7 @@ PM_IMG = "https://telegra.ph/file/bd05af18c9b4fc5b57233.mp4"
 
 
 pm_caption = "__** ✨𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙾𝙵 『🔥[{DEFAULTUSER}](tg://user?id={dark})🔥』**__\n\n"
-\n\n"
+
 
 
 
