@@ -120,7 +120,7 @@ async def gban(userbot):
     except:
         pass
     return await personalBot.edit(
-        f"[{user.first_name}](tg://user?id={user.id}) Beta rishte me to tumhare papa lagte hai [{Harsh}](tg://user?id={papa}) Lekin Aukat tumhari behan chodne ki bhi hi.\n\n**Succesfully Gbanned mi son 🔥\nAffected Chats😏 : {a} **"
+        f"[{user.first_name}](tg://user?id={user.id}) Beta rishte me to tumhare papa lagte hai [{Harsh}](tg://user?id={papa}) Lekin Aukat tumhari behan chodne ki bhi hai.\n\n**Succesfully Gbanned moi son 🔥\nAffected Chats😏 \n Lets nacho ! : {a} **"
     )
 
 @bot.on(admin_cmd(pattern="ungban ?(.*)"))
