@@ -11,7 +11,7 @@ from userbot import bot as personalBot
 
 DELETE_TIMEOUT = 5
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "personal User"
-personal_logo = "./personal/personal_bot_logo.jpg"
+personal_logo = "./Personal/Personal_bot_logo.jpg"
 furious = personalBot.uid
 personal = f"[{DEFAULTUSER}](tg://user?id={furious})"
 
