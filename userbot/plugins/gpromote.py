@@ -80,7 +80,7 @@ async def gben(userbot):
     except:
         pass
     if me == user:
-       k = await personal.edit("U want to promote urself waah.. Chutiye")
+       k = await personal.edit("U want to promote urself waah.. Kya Chutiya hai")
        return
     try:
         if not rank:
@@ -106,9 +106,9 @@ async def gben(userbot):
           except:
              pass
     else:
-        await personal.edit(f"**Reply to a user you dumbo !!**")
+        await personal.edit(f"**Please reply to a user !!**")
     return await personal.edit(
-        f"**Globally promoted [{user.first_name}](tg://user?id={user.id})\n On Chats😏 : {i} **"
+        f"**Globally promoted [{user.first_name}](tg://user?id={user.id})\n On Chats😏 \n Let`s Nacho ! : {i} **"
     )
 @borg.on(admin_cmd(pattern="gdemote ?(.*)"))
 async def gben(userbot):
@@ -130,7 +130,7 @@ async def gben(userbot):
     except:
         pass
     if me == user:
-       k = await personal.edit("U want to demote urself waah.. Chutiye")
+       k = await personal.edit("U want to demote urself waah.. kya Chutiya hai")
        return
     try:
         if not rank:
@@ -158,7 +158,7 @@ async def gben(userbot):
     else:
         await personal.edit(f"**Reply to a user you dumbo !!**")
     return await personal.edit(
-        f"**Globally Demoted [{user.first_name}](tg://user?id={user.id})\n On Chats😏 : {i} **"
+        f"**Globally Demoted [{user.first_name}](tg://user?id={user.id})\n On Chats😏 \n Aa gaya swaad ?: {i} **"
     )
 
 
