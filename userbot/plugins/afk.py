@@ -46,7 +46,7 @@ async def set_not_afk(event):
     if ".afk" not in current_message and "yes" in USER_AFK:  # pylint:disable=E0602
         personalBot = await borg.send_message(
             event.chat_id,
-            "🔥__Back alive!__\n**No Longer afk.**\n⏱️ `Was afk for:``"
+            "🔥__Back Online!__\n**No Longer afk.**\n⏱️ `Was afk for:``"
             + total_afk_time
             + "`", file=personalpic
         )
@@ -54,7 +54,7 @@ async def set_not_afk(event):
             await borg.send_message(  # pylint:disable=E0602
                 Config.PRIVATE_GROUP_BOT_API_ID,  # pylint:disable=E0602
                 "#AFKFALSE \nSet AFK mode to False\n"
-                + "🔥__Back alive!__\n**No Longer afk.**\n⏱️ `Was afk for:``"
+                + "🔥__Back online!__\n**No Longer afk.**\n⏱️ `Was afk for:``"
                 + total_afk_time
             )
         except Exception as e:  # pylint:disable=C0103,W0703
@@ -98,10 +98,10 @@ async def on_afk(event):
         msg = None
         
         message_to_reply = (
-            f"Hey!! My Legend master [{DEFAULTUSER}](tg://user?id={personal}) is currently offline... Since when?\n**For** `{total_afk_time}`\n"
-            + f"\n\n👇__The Reason Is__👇 :-\n`{reason}`"
+            f"Hey!! My master [{DEFAULTUSER}](tg://user?id={personal}) is currently offline... Since when?\n**For** `{total_afk_time}`\n"
+            + f"\n\n👇__Bcoz Of__👇 :-\n`{reason}`"
   if reason
-            else f"**Heyy!**\n__I am currently unavailable.__\n__Since when, you ask? From__ `{total_afk_time}`\nI'll be back when I feel to come🚶"
+            else f"**Heyy!**\n__I am currently offline.__\n__Since when, you ask? From__ `{total_afk_time}`\nI'll be back when I feel to come🚶"
         )
         msg = await event.reply(message_to_reply, file=personalpic)
         await asyncio.sleep(2)
@@ -139,10 +139,10 @@ async def _(event):
         USER_AFK = f"yes: {reason} {personalpic}"  # pylint:disable=E0602
         if reason:
             await borg.send_message(
-                event.chat_id, f"__**I'm going afk🚶**__ \n⚜️ Because `{reason}`", file=personalpic
+                event.chat_id, f"__**I'm going offline🚶**__ \n⚜️ Bcoz `{reason}`", file=personalpic
             )
         else:
-            await borg.send_message(event.chat_id, f"**I am Going afk!**🚶", file=personalpic)
+            await borg.send_message(event.chat_id, f"**I am Going offline!**🚶", file=personalpic)
         await asyncio.sleep(0.001)
         await event.delete()
         try:
@@ -154,6 +154,6 @@ async def _(event):
             logger.warn(str(e))  # pylint:disable=E0602
 
 
-CmdHelp("afk").add_command(
-  'afk', '<reply to media>/<or type a reson>', 'Marks you AFK(Away from Keyboard) with reason(if given) also shows afk time. Media also supported.'
+CmdHelp("offline").add_command(
+  'offline', '<reply to media>/<or type a reson>', 'Marks you AFK(Away from Keyboard) with reason(if given) also shows afk time. Media also supported.'
 ).add()
