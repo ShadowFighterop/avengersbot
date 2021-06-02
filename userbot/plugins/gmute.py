@@ -18,7 +18,7 @@ async def blowjob(event):
         	
         return
     elif event.is_private:
-        await edit_or_reply(event, "`Son can't speak now🤐. Filled mouth with cum`💦")
+        await edit_or_reply(event, "`You can't speak now bcoz i fucked your mouth`💦")
         await asyncio.sleep(3)
         private = True
     reply = await event.get_reply_message()
@@ -39,7 +39,7 @@ async def blowjob(event):
     except Exception as e:
         await edit_or_reply(event, "Error occured!\nError is " + str(e))
     else:
-        await edit_or_reply(event, "Successfully Fucked this user's mouth.")
+        await edit_or_reply(event, "Successfully Muted this user's mouth.")
 
 
 @bot.on(admin_cmd(pattern=r"ungmute ?(\d+)?"))
@@ -49,7 +49,7 @@ async def cumshot(event):
     if event.fwd_from:
         return
     elif event.is_private:
-        await edit_or_reply(event, "Today's sex done. Now son can speak✌️🚶")
+        await edit_or_reply(event, "You can speak now , bcoz my master forgiven you✌")
         await asyncio.sleep(3)
         private = True
     reply = await event.get_reply_message()
@@ -69,7 +69,7 @@ async def cumshot(event):
     except Exception as e:
         await edit_or_reply(event, "Error occured!\nError is " + str(e))
     else:
-        await edit_or_reply(event, "Ok! Today's sex is done now. Son can speak🔥🔥")
+        await edit_or_reply(event, "You can speak now , bcoz my master forgiven you✌")
         
 @command(incoming=True)
 async def watcher(event):
