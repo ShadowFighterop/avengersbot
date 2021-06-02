@@ -38,8 +38,8 @@ from userbot.cmdhelp import CmdHelp
 
 PP_TOO_SMOL = "`The image is too small`"
 PP_ERROR = "`Failure while processing the image`"
-NO_ADMIN = "`I am not an admin! Chutiya sala`"
-NO_PERM = "`I don't have sufficient permissions! Sed -_-`"
+NO_ADMIN = "`Pahle admin to banja ! chutiye`"
+NO_PERM = "`I don't have Rights to promote  -_-`"
 CHAT_PP_CHANGED = "`Chat Picture Changed Successfully`"
 INVALID_MEDIA = "`Invalid media Extension`"
 
