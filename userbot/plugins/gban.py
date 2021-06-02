@@ -64,11 +64,11 @@ async def gban(userbot):
     sender = await ids.get_sender()
     hum = await ids.client.get_me()
     if not sender.id == hum.id:
-        personalBot = await edit_or_reply(ids, "Trying to gban this retard!")
+        personalBot = await edit_or_reply(ids, "Trying to gban this Kido!")
     else:
-        personalBot = await edit_or_reply(ids, "`Ok! Gbaning this piece of shit....`")
+        personalBot = await edit_or_reply(ids, "`Ok! Gbaning moi son....`")
     hum = await userbot.client.get_me()
-    await personalBot.edit(f"`🔥Global Ban Iz Cumin'💦.... Wait and watch nigga🚶`")
+    await personalBot.edit(f"`🔥Global Ban is occuring '💦.... Wait and watch Chappri🚶`")
     my_mention = "[{}](tg://user?id={})".format(hum.first_name, hum.id)
     f"@{hum.username}" if hum.username else my_mention
     await userbot.get_chat()
@@ -90,7 +90,7 @@ async def gban(userbot):
     if user:
         if user.id == 1837224931 or user.id == 1761900506 or user.id == 1642269125:
             return await personalBot.edit(
-                f"`First Grow Some Balls To Gban My Creater🤫🚶`"
+                f"`Beta khada karna sikh lo pahle phir papa ko gban karna🤫🚶`"
             )
         try:
             from userbot.modules.sql_helper.gmute_sql import gmute
@@ -109,7 +109,7 @@ async def gban(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, view_messages=False)
                 a += 1
-                await personalBot.edit(f"Gbaning This retard🚶\n\nTotal Chats :- `{a}`")
+                await personalBot.edit(f"Gbaning This Kido🚶\n\nTotal Chats :- `{a}`")
             except:
                 b += 1
     else:
@@ -120,7 +120,7 @@ async def gban(userbot):
     except:
         pass
     return await personalBot.edit(
-        f"[{user.first_name}](tg://user?id={user.id}) Beta majdur ko khodna aur [{Harsh}](tg://user?id={papa}) ko chodna kabhi sikhana nhi.\n\n**Gban Successful 🔥\nAffected Chats😏 : {a} **"
+        f"[{user.first_name}](tg://user?id={user.id}) Beta rishte me to tumhare papa lagte hai [{Harsh}](tg://user?id={papa}) Lekin Aukat tumhari behan chodne ki bhi hi.\n\n**Succesfully Gbanned mi son 🔥\nAffected Chats😏 : {a} **"
     )
 
 @bot.on(admin_cmd(pattern="ungban ?(.*)"))
@@ -186,7 +186,7 @@ async def gunban(userbot):
     except:
         pass
     return await personalBot.edit(
-        f"**[{user.first_name}](tg://user?id={user.id}) Aur bhai.... Aagya swaad.**\n\nUngban Successful 🔥\nChats :- `{a}`"
+        f"**[{user.first_name}](tg://user?id={user.id}) Aur bhai.... Mil gayi khushi.**\n\nUngban Successful 🔥\nChats :- `{a}`"
     )
 
 
@@ -213,7 +213,7 @@ async def handler(aura):
                     await aura.reply(
                      f"⚠️⚠️**Warning**⚠️⚠️\n\n`Gbanned User Joined the chat!!`\n"                      
                      f"**⚜️ Victim Id ⚜️**:\n[{guser.id}](tg://user?id={guser.id})\n"                   
-                     f"**🔥 Action 🔥**  :\n`Banned this piece of shit....` **AGAIN!**")                                                
+                     f"**🔥 Action 🔥**  :\n`Banned this Chappri....` **AGAIN!**")                                                
                  except:       
                     aura.reply("`Sheit!! No permission to ban users.\n@admins ban this retard.\nGlobally Banned User And A Potential Spammer`\n**Make your group a safe place by cleaning this shit**")                   
                     return
