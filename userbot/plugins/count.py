@@ -84,7 +84,7 @@ async def stats(
     response += f"🔱 **Unread Mentions:** {unread_mentions} \n\n"
     response += f"☣️   __It Took:__ {stop_time:.02f}s \n"
     response += (
-        f"📌 **From The DataBase Of** :- [personalBot](https://t.me/personalUserbot)"
+        f"📌 **From The DataBase Of** :- [ℙ𝔼ℝ𝕊𝕆ℕ𝔸𝕃 𝔹𝕆𝕋™](https://t.me/personalUserbot)"
     )
     await personal.edit(response)
 
