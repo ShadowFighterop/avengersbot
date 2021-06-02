@@ -158,7 +158,7 @@ async def gben(userbot):
     else:
         await personal.edit(f"**Reply to a user you dumbo !!**")
     return await personal.edit(
-        f"**Globally Demoted [{user.first_name}](tg://user?id={user.id})\n On Chats😏 \n Aa gaya swaad ?: {i} **"
+        f"**Globally Demoted [{user.first_name}](tg://user?id={user.id})\n On Chats😏 \n  ?: {i} Aa gaya swaad**"
     )
 
 
