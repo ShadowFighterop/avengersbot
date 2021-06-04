@@ -23,7 +23,7 @@ async def send(event):
     message_id = event.message.id
     thumb = personal_logo
     input_str = event.pattern_match.group(1)
-    omk = f"**⍟ Plugin name ≈** `{input_str}`\n**⍟ Uploaded by ≈** {personal}\n\n⚡ **[Legendary personalBot](t.me/personalUserbot)** ⚡"
+    omk = f"**⍟ Plugin name ≈** `{input_str}`\n**⍟ Uploaded by ≈** {personal}\n\n⚡ **[Legendary personalBot](t.me/personal_Userbot_update)** ⚡"
     the_plugin_file = "./userbot/plugins/{}.py".format(input_str)
     if os.path.exists(the_plugin_file):
         lauda = await event.client.send_file(
@@ -71,7 +71,7 @@ async def install(event):
                             a = "__Installing...__"
                             b = 1
                         await event.edit(a)
-                    return await event.edit(f"✅ **Installed module** :- `{shortname}` \n✨ BY :- {personal}\n\n{string}\n\n        ⚡ **[Legendary personalBot](t.me/personalUserbot)** ⚡", link_preview=False)
+                    return await event.edit(f"✅ **Installed module** :- `{shortname}` \n✨ BY :- {personal}\n\n{string}\n\n        ⚡ **[Legendary personalBot](t.me/personal_Userbot_update )** ⚡", link_preview=False)
                 return await event.edit(f"Installed module `{os.path.basename(downloaded_file_name)}`")
             else:
                 os.remove(downloaded_file_name)
